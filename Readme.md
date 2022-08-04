@@ -2,8 +2,9 @@
 
 ## Scripts para crear proyectos
 
-### npm create-react-app 'nombre de la App'
-### npx create-react-app 'nombre de la App'
+### `React` (npm)
+`npm create-react-app 'nombre de la App'`   => Crea e instala los paquetes.  
+`npm start`                                 => Inicia la aplicación.
 
 ### `Vite` (yarn):
 `yarn create vite`  => crea la aplicación.  
