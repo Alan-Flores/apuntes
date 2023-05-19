@@ -39,3 +39,8 @@ Nota de actualización {
     
     git config core.autocrlf true
 }
+
+Restaurar el ultimo commit {
+
+    git checkout -- .
+}
