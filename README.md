@@ -35,7 +35,7 @@ Guardar modificaciones {
 
 Nota de actualización {
 
-    Algunos en la próxima clase han presentado este problema con el CRLF, no es nada serio, es básicamente una interpretación de un carácter.
+    Algunos en la próxima clase han presentado este problema con el CRLF, no es nada serio, es  básicamente una interpretación de un carácter.
     Simplemente ejecuten este comando si presentan el error:
     
     git config core.autocrlf true
@@ -48,4 +48,18 @@ Restaurar el ultimo commit {
 
 Revisar los commits {
     git log
+}
+
+Realizar git add . a archivos comunes{
+    git add *.html (extención del archivo cuando esta en la raiz)
+    git add js/*.js (extención del archivo cuando esta dentro de una carpeta)
+}
+
+Nota: Git no le dara seguimiento a una carpeta vacia de fotma predeterminada, para evitar esto, dentro de la carpeta podemos generar un archivo llamado .gitkeep
+
+Creando alias en los comandos de git{
+
+    git config --global alias.(aqui abreviamos y depues colocamos el comando correcto)
+
+    git config --global alias.s "status --short"
 }
