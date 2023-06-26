@@ -45,3 +45,7 @@ Restaurar el ultimo commit {
 
     git checkout -- .
 }
+
+Revisar los commits {
+    git log
+}
