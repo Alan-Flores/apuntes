@@ -73,3 +73,11 @@ Revisar las modificaciones realidas en los archivos {
 
     git diff --staged (comparar los datos de staged)
 }
+
+git commit -am "" // podemos usas este comando corto para realizar el commit, siempre que le estemos dando seguimiento al archivo.
+
+git commit --amend -m "" //Comando para corregir el ultimo commit.
+
+ git reset --soft HEAD^  //Comando para borrar el ultimo commit
+ 
+
